@@ -36,7 +36,7 @@ local list = {
 }
 local listIndex = 1
 
-local neonMain = RageUI.CreateMenu("Neon", "~b~Menu Neon")
+local neonMain = RageUI.CreateMenu("Neon", "Menu Neon")
 neonMain.Closed = function()
     isOpen = false
     RageUI.Visible(neonMain, false)
